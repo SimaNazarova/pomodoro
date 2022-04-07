@@ -2,7 +2,6 @@
 
  * {
   box-sizing: border-box;
-  /* border: 1px solid red; */
 }
 
 body {
@@ -46,6 +45,10 @@ body {
   margin: 0 auto;
 }
 
+.timer__container {
+  width: 386px;
+}
+
 .btns {
   margin-top: 70px;
 }
@@ -74,7 +77,7 @@ body {
   margin-right: 10px;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 780px),(max-height: 800px) {
   .title {
     font-size: 22px;
     margin-top: 25px;
@@ -82,6 +85,10 @@ body {
 
   .timer {
     font-size: 80px;
+  }
+
+  .timer__container {
+    width: 201px;
   }
 
   .btns button {
@@ -94,6 +101,8 @@ body {
   .timer {
     font-size: 56px;
   }
+  .timer__container {
+    width: 136px;
+  }
 } 
-
 
