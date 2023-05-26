@@ -1,7 +1,7 @@
 # Pomodoro
 
 
-## link https://simanazarova.github.io/pomodoro/
+gh-pages link : https://simanazarova.github.io/pomodoro/
 
 
 
